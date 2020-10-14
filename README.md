@@ -1,6 +1,7 @@
 # complete-pwa-using-workbox-sync-notification
 This Example shows how we can create a pwa application using workbox.
 This example contains all the aspect of the workbox such as 
+
 1- Creating Manifest files :- This is not generating menifest file. 
 Use online sites like https://app-manifest.firebaseapp.com/ or  https://tomitm.github.io/appmanifest/ 
 

@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Siddhu Simple PWA Example</title>
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="grey lighten-4">
+
+  <!-- top nav -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="/">PWA Example</a>
+      <span class="right grey-text ">
+        <i class="material-icons sidenav-trigger " data-target="side-menu">menu</i>
+      </span>
+    </div>
+  </nav>
+
+  <!-- side nav -->
+  <ul id="side-menu" class="sidenav side-menu">
+    <li><a class="subheader">Right Menu Items</a></li>
+    <li><a href="/" class="waves-effect">Home</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a href="/pages/about.html" class="waves-effect">About</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a href="/pages/contact.html" class="waves-effect">
+        Contact</a>
+    </li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect sidenav-trigger" data-target="side-form">
+        Add User</a>
+    </li>
+  </ul>
+
+  <!-- Data -->
+  <div class="container grey-text">
+    <h5 class="center">About Page</h5>
+    <p>This is About Page.
+    </p>
+
+  </div>
+
+  <!-- add User side nav -->
+  <div id="side-form" class="sidenav side-form">
+    <form class="add-user container section">
+      <h6>New user</h6>
+      <div class="divider"></div>
+      <div class="input-field">
+        <input placeholder="Name of User" id="title" type="text" class="validate">
+        <label for="title">User Name</label>
+      </div>
+      <div class="input-field">
+        <input placeholder="User Address" id="address" type="text" class="validate">
+        <label for="address">User Address</label>
+      </div>
+      <div class="input-field center">
+        <button class="btn-small">Add</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/ui.js"></script>
+</body>
+
+</html>
